@@ -1,0 +1,83 @@
+/* Fondo de la página para que resalte la tarjeta */
+        body {
+            background-color: #fcf6eb;
+            margin: 0;
+            font-family: sans-serif;
+        }
+
+        /* La clase de tu tarjeta azul */
+        .login-card {
+            background-color: #4a6b8c; 
+            border: 2px solid #2b3a4a;
+            border-radius: 20px;
+            width: 340px;
+            padding: 30px 25px;
+            box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+            color: white;
+            
+            /* Esto la centra horizontalmente y le da espacio arriba */
+            margin: 10vh auto; 
+            box-sizing: border-box;
+        }
+
+        .login-card h2 {
+            text-align: center;
+            margin-top: 0;
+            margin-bottom: 25px;
+        }
+
+        /* Estilos básicos para separar los elementos internos */
+        .input-group {
+            margin-bottom: 20px;
+        }
+        .input-group input {
+            width: 100%;
+            padding: 10px;
+            border-radius: 10px;
+            border: none;
+            box-sizing: border-box;
+        }
+
+        .intents_card {
+            background-color: #ffffff;
+            border: 2px solid #2b3a4a;
+            border-radius: 20px;
+            width: 70%;
+            padding: 30px 25px;
+            box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+            margin: 30vh auto;
+            text-align: center;
+            box-sizing: border-box;
+        }
+
+        .intents_card h2{
+            color: #2E2E2A;
+        }
+
+        .intents_card h3{
+            font-weight: 100;
+            color: #000000;
+        }
+
+        .input_recuperation {
+            border-radius: 8px;
+            border: 1px solid;
+            text-align: center;
+            width:250px;
+            padding: 10px;
+            box-sizing: border-box;
+        }
+
+        .button {
+            cursor: pointer;
+            background-color: #E6A017;
+            border: 1px solid;
+            border-radius: 8px;
+            width: 150px;
+            padding: 5px;
+            box-sizing: content-box;
+        }
+        
+        .button:hover {
+            background-color: #C58913 ;
+        }

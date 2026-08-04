@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Limite de intentos</title>
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+
+<body>
+    <div class="intents_card">
+        <form>
+            <span style="
+                background-color: #E6A017; 
+                mask-image: url('../imagenes/advertencia (1).png'); 
+                -webkit-mask-image: url('../imagenes/advertencia (1).png'); /* Soporte para navegadores basados en Webkit/Blink */
+                mask-size: contain; 
+                mask-repeat: no-repeat; 
+                mask-position: center; 
+                display: inline-block; 
+                width: 100px; 
+                height: 100px; /* Al usar máscaras en bloques vacíos, necesitas definir un alto fijo */
+                " aria-label="equis"></span>
+            <h2>Mensaje de advertencia</h2>
+            <h3>Usuario y/o contraseña incorrecta. Intentos fallidos: 5 <br> Para poder acceder a su cuenta recupere su contraseña</h3>
+            <input class="input_recuperation" type="email" name="recovery_email" placeholder="Ingresa tu correo de recuperación" aria-label="recovery-email" required minlength="8">
+            <br>
+            <br>
+            <button type="submit" class="button">Recuperar</button>
+        </form>
+    </div>
+</body>
+</html>
