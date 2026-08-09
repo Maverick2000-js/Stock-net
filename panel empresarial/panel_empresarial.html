@@ -4,20 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Panel empresarial</title>
-    <link rel="stylesheet" href="https://cloudflare.com">
     <link rel="stylesheet" href="../css/styles.css">
 </head>
 
 <body>
     <header class="header-azul">
-            
-        <div class="content-header">
-            <h1>STOCK.net</h1>
-            <p>Sistema integral de gestión de inventario</p>
+        <div class="align-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon-header">
+                <path d="M3 3v16a2 2 0 0 0 2 2h16"/><path d="m19 9-5 5-4-4-3 3"/>
+            </svg>
+            <div class="content-header">
+                <h1>STOCK.net</h1>
+                <p>Sistema integral de gestión de inventario</p>
+            </div>
         </div>
 
         <button class="admin-button">
-            <i class="fa-solid fa-user-shield icono-usuario"></i>
             <span>Administrador - Acceso total</span>
         </button>     
     </header>
@@ -26,35 +28,55 @@
         <div class="metrics-grid">
 
             <article class="metric-card">
-                <span class="icon"></span>
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="stat-icon">
+                    <path d="M21 8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16Z"/>
+                    <path d="m3.3 7 8.7 5 8.7-5"/>
+                    <path d="M12 22V12"/>
+                </svg>
                 <h3>1,284</h3>
                 <p>Productos registrados</p>
                 <small>+ 17% vs mes anterior</small>
             </article>
 
             <article class="metric-card">
-                <span class="icon"></span>
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="stat-icon">
+                    <path d="M14 18V6a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2v11a1 1 0 0 0 1 1h2"/>
+                    <path d="M15 18H9"/>
+                    <path d="M19 18h2a1 1 0 0 0 1-1v-3.65a1 1 0 0 0-.22-.624l-3.48-4.35A1 1 0 0 0 17.52 8H14"/>
+                    <circle cx="17" cy="18" r="2"/>
+                    <circle cx="7" cy="18" r="2"/>
+                </svg>
                 <h3>1,284</h3>
                 <p>Productos registrados</p>
                 <small>+ 17% vs mes anterior</small>
             </article>
 
             <article class="metric-card">
-                <span class="icon"></span>
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="stat-icon">
+                    <path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3"/>
+                    <path d="M12 9v4"/>
+                    <path d="M12 17h.01"/>
+                </svg>
                 <h3>1,284</h3>
                 <p>Productos registrados</p>
                 <small>+ 17% vs mes anterior</small>
             </article>
 
             <article class="metric-card">
-                <span class="icon"></span>
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="stat-icon">
+                    <rect width="20" height="14" x="2" y="5" rx="2"/>
+                    <line x1="2" x2="22" y1="10" y2="10"/>
+                </svg>
                 <h3>1,284</h3>
                 <p>Productos registrados</p>
                 <small>+ 17% vs mes anterior</small>
             </article>
 
             <article class="metric-card">
-                <span class="icon"></span>
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="stat-icon">
+                    <path d="M16 7h6v6"/>
+                    <path d="m22 7-8.5 8.5-5-5L2 17"/>
+                </svg>
                 <h3>1,284</h3>
                 <p>Productos registrados</p>
                 <small>+ 17% vs mes anterior</small>
@@ -68,49 +90,82 @@
             <div class="options-grid">
 
                 <button class="card-options">
-                    <span class="icon-main"></span>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon-card">
+                        <path d="M22 7.7c0-.6-.4-1.2-.8-1.5l-6.3-3.9a1.72 1.72 0 0 0-1.7 0l-10.3 6c-.5.2-.9.8-.9 1.4v6.6c0 .5.4 1.2.8 1.5l6.3 3.9a1.72 1.72 0 0 0 1.7 0l10.3-6c.5-.3.9-1 .9-1.5Z"/>
+                        <path d="M10 21.9V14L2.1 9.1"/>
+                        <path d="m10 14 11.9-6.9"/>
+                        <path d="M14 19.8v-8.1"/>
+                        <path d="M18 17.5V9.4"/>
+                    </svg>
                     <h4>Gestión de Inventario</h4>
                     <p>Consultar, editar y gestionar <br> productos y categorías</p>
                 </button>
 
                 <button class="card-options">
-                    <span class="icon-main"></span>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon-card">
+                        <path d="M21 12c.552 0 1.005-.449.95-.998a10 10 0 0 0-8.953-8.951c-.55-.055-.998.398-.998.95v8a1 1 0 0 0 1 1z"/>
+                        <path d="M21.21 15.89A10 10 0 1 1 8 2.83"/>
+                    </svg>
                     <h4>Gestión de Ventas</h4>
                     <p>Ver historial de transacciónes <br> proyecciones de ventas</p>
                 </button>
 
                 <button class="card-options">
-                    <span class="icon-main"></span>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon-card">
+                        <path d="M15 21v-5a1 1 0 0 0-1-1h-4a1 1 0 0 0-1 1v5"/>
+                        <path d="M17.774 10.31a1.12 1.12 0 0 0-1.549 0 2.5 2.5 0 0 1-3.451 0 1.12 1.12 0 0 0-1.548 0 2.5 2.5 0 0 1-3.452 0 1.12 1.12 0 0 0-1.549 0 2.5 2.5 0 0 1-3.77-3.248l2.889-4.184A2 2 0 0 1 7 2h10a2 2 0 0 1 1.653.873l2.895 4.192a2.5 2.5 0 0 1-3.774 3.244"/>
+                        <path d="M4 10.95V19a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-8.05"/>
+                    </svg>
                     <h4>Punto de venta</h4>
                     <p>Realizar ventas, aplicar <br> descuentos</p>
                 </button>
 
                 <button class="card-options">
-                    <span class="icon-main"></span>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon-card">
+                        <path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"/>
+                        <circle cx="12" cy="7" r="4"/>
+                    </svg>
                     <h4>Clientes</h4>
                     <p>Registrar, visualizar, editar <br> inactivar clientes</p>
                 </button>
 
                 <button class="card-options">
-                    <span class="icon-main"></span>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon-card">
+                        <path d="m11 17 2 2a1 1 0 1 0 3-3"/>
+                        <path d="m14 14 2.5 2.5a1 1 0 1 0 3-3l-3.88-3.88a3 3 0 0 0-4.24 0l-.88.88a1 1 0 1 1-3-3l2.81-2.81a5.79 5.79 0 0 1 7.06-.87l.47.28a2 2 0 0 0 1.42.25L21 4"/>
+                        <path d="m21 3 1 11h-2"/>
+                        <path d="M3 3 2 14l6.5 6.5a1 1 0 1 0 3-3"/>
+                        <path d="M3 4h8"/>
+                    </svg>
                     <h4>Proveedores</h4>
                     <p>Registrar, visualizar, <br> inactivar proveedores</p>
                 </button>
 
                 <button class="card-options">
-                    <span class="icon-main"></span>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon-card">
+                        <path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H19a1 1 0 0 1 1 1v18a1 1 0 0 1-1 1H6.5a1 1 0 0 1 0-5H20"/>
+                        <path d="m9 9.5 2 2 4-4"/>
+                    </svg>
                     <h4>Compras</h4>
                     <p>Registrar, devolver y visualizar <br> historial de compras a proveedores</p>
                 </button>
 
                 <button class="card-options">
-                    <span class="icon-main"></span>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon-card">
+                        <rect width="20" height="14" x="2" y="5" rx="2"/>
+                        <line x1="2" x2="22" y1="10" y2="10"/>
+                    </svg>
                     <h4>Créditos</h4>
                     <p>Crear, visualizar, actualizar <br> créditos</p>
                 </button>
 
                 <button class="card-options">
-                    <span class="icon-main"></span>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon-card">
+                        <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/>
+                        <path d="M16 3.128a4 4 0 0 1 0 7.744"/>
+                        <path d="M22 21v-2a4 4 0 0 0-3-3.87"/>
+                        <circle cx="9" cy="7" r="4"/>
+                    </svg>
                     <h4>Usuarios y Roles</h4>
                     <p>Gestionar usuario y roles</p>
                 </button>
@@ -118,6 +173,7 @@
 
         </nav>
 
+        <br>
         <section>
             <h3>⏱️ Actividad reciente del sistema</h3>
 
@@ -127,7 +183,10 @@
                         <th>Hora / Fecha</th>
                         <th>Módulo</th>
                         <th>Acción</th>
+                        <th>Descripción</th>
+                        <th>Dirección IP</th>
                         <th>Usuario</th>
+                        <th>Rol</th>
                         <th>Estado</th>
                     </tr>
                 </thead>
@@ -135,10 +194,24 @@
                     <tr>
                         <td>10:45 AM - hoy</td>
                         <td>Inventario</td>
+                        <td>Actualización</td>
                         <td>Actualización masiva de precios</td>
+                        <td>192.168.1.45</td>
                         <td>Admin@stock.net</td>
+                        <td>Administrador</td>
                         <td>
-                            <button class="btn-estado activo">Activo</button>
+                            <button class="btn-estado-activo">Activo</button>
+                        </td>
+                    <tr>
+                        <td>10:45 AM - hoy</td>
+                        <td>Créditos</td>
+                        <td>Creación</td>
+                        <td>Nuevo crédito otorgado</td>
+                        <td>192.168.1.45</td>
+                        <td>Admin@stock.net</td>
+                        <td>Administrador</td>
+                        <td>
+                            <button class="btn-estado-activo">Activo</button>
                         </td>
                     </tr>
                 </tbody>

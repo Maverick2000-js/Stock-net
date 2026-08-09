@@ -1,11 +1,11 @@
-/* Fondo de la página para que resalte la tarjeta */
+/* Fondo de la página para que resalte la tarjeta de Login */
         body {
             background-color: #fcf6eb;
             margin: 0;
             font-family: sans-serif;
         }
 
-        /* La clase de tu tarjeta azul */
+        /* La clase de la tarjeta azul de login*/
         .login-card {
             background-color: #4a6b8c; 
             border: 2px solid #2b3a4a;
@@ -38,6 +38,7 @@
             box-sizing: border-box;
         }
 
+        /* Estilos para la pantalla de intentos fallidos de Login */
         .intents_card {
             background-color: #ffffff;
             border: 2px solid #2b3a4a;
@@ -80,4 +81,162 @@
         
         .button:hover {
             background-color: #C58913 ;
+        }
+
+        /* Estilos para el Panel Empresarial */
+
+        .header-azul {
+            background-color: #4a6b8c;
+            color: #ffffff;
+            padding: 10px 30px;
+            border-radius: 0 0 10px 10px;
+            display:flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 30px;
+            }
+
+        .align-icon {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .icon-header {
+            width: 30px;     /*  Ancho del icono */
+            height: 30px;    /*  Alto del icono */
+            stroke: #ffffff;
+        }
+
+        .content-header h1{
+            font-size: 1.5rem;
+            font-weight: bold;
+            letter-spacing: 1px;
+        }
+
+        .content-header p {
+            font-size: 0.85rem;
+            opacity: 0.8;
+            margin-top: 4px;
+        }
+
+        .admin-button {
+            background-color: #4c6685;
+            border: none;
+            color: white;
+            padding: 8px 16px;
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            font-size: 0.9rem;
+            cursor: pointer;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        .metrics-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 20px;
+            margin-bottom: 40px;
+        }
+
+        .stat-icon {
+            width: 30px;
+            height: 30px;
+            stroke:#2f609c
+        }
+
+        .metric-card {
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+            border: 1px solid #eaeaea;
+        }
+
+        .metric-card h3 {
+            font-size: 1.6rem;
+            color: #111;
+            margin: 10px 0 5px 0;
+        }
+
+        .metric-card p {
+            font-size: 0.85rem;
+            color: #666;
+        }
+
+        .metric-card small {
+            font-size: 0.75rem;
+            color: #2e7d32;
+            display: block;
+            margin-top: 8px;
+        }
+
+        .panel-control {
+            margin-bottom: 40px;
+        }
+
+        .panel-control h3 {
+            font-size: 1.2rem;
+            color: #333;
+            margin-bottom: 20px;
+        }
+
+        .options-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+            gap: 20px;
+        }
+
+        .card-options {
+            background-color: #ffffff;
+            border-radius: 12px;
+            border: 1px solid #eaeaea;
+            padding: 20px;
+            cursor: pointer;
+            transition: transform 0.2s ease, box-shadow 0.2 ease;
+        }
+
+        .icon-card {
+            width: 40px;
+            height: 30px;
+            margin-bottom: 10px;
+            color:#E6A017;
+        }
+
+        .card-options h4 {
+            font-size: 10px;
+        }
+        .card-options p {
+            font-size: 8px;
+        }
+
+        .card-options:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 4px 12px rgba(0,0,0, 0.08);
+        }
+
+        table {
+            table-layout: fixed;
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th, td {
+        padding: 12px; 
+        text-align: left; 
+        border-bottom: 1px solid #e0e0e0;
+        }
+
+        .btn-estado-activo {
+            padding: 5px ;
+            border-radius: 10px;
+            border: 1px solid #666;
+            width: 50%;
+            background-color: #2e7d32;
+            color: #ffffff;
         }
