@@ -209,7 +209,7 @@
         }
 
         .card-options h4 {
-            font-size: 10px;
+            font-size: 13px;
         }
         .card-options p {
             font-size: 8px;
@@ -240,3 +240,114 @@
             background-color: #2e7d32;
             color: #ffffff;
         }
+
+        /* Estilos para el módulo de Usuario */
+
+        .nav-buttons {
+            display: flex;
+            gap: 15px;
+            margin: 30px 0;
+        }
+
+        .btn {
+            padding: 12px 24px;
+            font-family: inherit;
+            font-size: 14px;
+            font-weight: bold;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .btn-primary {
+            background-color: #f1a832;
+            color: #1a1a1a;
+            border: 2px solid #d99324;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .btn-secondary {
+            background-color: #ffffff;
+            color: #333333;
+            border: 2px solid #b5b5b5;
+        }
+        
+        .btn-secondary:hover {
+            background-color: #f9f9f9;
+            border-color: #f1a832;
+        }
+        
+        .search-container {
+            display: flex;
+            gap: 100px;      /* Espacio entre el input y el botón */
+            align-items: center;
+            margin: 20px 0;
+        }
+        
+        .search-input {
+            flex-grow: 1;
+            padding: 12px;
+            border: 1px solid #ccc;
+            border-radius: 7px;
+            font-size: 14px;
+        }
+        
+        .btn-create-user {
+            background-color: #f1a832; /* El mismo color mostaza de tus otros botones */
+            color: #1a1a1a;
+            font-weight: bold;
+            padding: 12px 24px;
+            border: none;
+            border-radius: 7px;
+            cursor: pointer;
+            white-space: nowrap; /* Evita que el texto del botón se rompa en dos líneas */
+        }
+
+        .btn-create-user:hover {
+            background-color: #d99324;
+        }
+
+        .row-color {
+            background-color: #ffffff;
+        }
+
+        .table-container {
+            margin-top: 50px;
+            border: 1px solid #ccc;
+        }
+
+        /* Log de Actividad */
+        
+            .btn-primary-log {
+                background-color: #ffffff;
+                color: #333333;
+                border: 2px solid #b5b5b5;
+            }
+            
+            .btn-secondary-log {
+                background-color: #f1a832;
+                color: #1a1a1a;
+                border: 2px solid #d99324;
+                box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            }
+
+            .search-container-log {
+                display: flex;
+                max-width: 500px;
+                align-items: center;
+                margin: 20px 0;
+            }
+
+            .search-input-log {
+                flex-grow: 1;
+                padding: 14px;
+                border: 1px solid #ccc;
+                border-radius: 7px;
+                font-size: 14px;
+            }
+
+                .btn-primary-log:hover {
+                background-color: #f9f9f9;
+                border-color: #f1a832;
+            }
+            

@@ -11,7 +11,8 @@
     <header class="header-azul">
         <div class="align-icon">
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon-header">
-                <path d="M3 3v16a2 2 0 0 0 2 2h16"/><path d="m19 9-5 5-4-4-3 3"/>
+                <path d="M3 3v16a2 2 0 0 0 2 2h16"/>
+                <path d="m19 9-5 5-4-4-3 3"/>
             </svg>
             <div class="content-header">
                 <h1>STOCK.net</h1>
@@ -176,46 +177,49 @@
         <br>
         <section>
             <h3>⏱️ Actividad reciente del sistema</h3>
-
-            <table>
-                <thead>
-                    <tr>
-                        <th>Hora / Fecha</th>
-                        <th>Módulo</th>
-                        <th>Acción</th>
-                        <th>Descripción</th>
-                        <th>Dirección IP</th>
-                        <th>Usuario</th>
-                        <th>Rol</th>
-                        <th>Estado</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>10:45 AM - hoy</td>
-                        <td>Inventario</td>
-                        <td>Actualización</td>
-                        <td>Actualización masiva de precios</td>
-                        <td>192.168.1.45</td>
-                        <td>Admin@stock.net</td>
-                        <td>Administrador</td>
-                        <td>
-                            <button class="btn-estado-activo">Activo</button>
-                        </td>
-                    <tr>
-                        <td>10:45 AM - hoy</td>
-                        <td>Créditos</td>
-                        <td>Creación</td>
-                        <td>Nuevo crédito otorgado</td>
-                        <td>192.168.1.45</td>
-                        <td>Admin@stock.net</td>
-                        <td>Administrador</td>
-                        <td>
-                            <button class="btn-estado-activo">Activo</button>
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
+            
+            <div class="table-container">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Hora / Fecha</th>
+                            <th>Módulo</th>
+                            <th>Acción</th>
+                            <th>Descripción</th>
+                            <th>Dirección IP</th>
+                            <th>Usuario</th>
+                            <th>Rol</th>
+                            <th>Estado</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="row-color">
+                            <td>10:45 AM - hoy</td>
+                            <td>Inventario</td>
+                            <td>Actualización</td>
+                            <td>Actualización masiva de precios</td>
+                            <td>192.168.1.45</td>
+                            <td>Admin@stock.net</td>
+                            <td>Administrador</td>
+                            <td>
+                                <button class="btn-estado-activo">Activo</button>
+                            </td>
+                        </tr>
+                        <tr class="row-color">
+                            <td>10:45 AM - hoy</td>
+                            <td>Créditos</td>
+                            <td>Creación</td>
+                            <td>Nuevo crédito otorgado</td>
+                            <td>192.168.1.45</td>
+                            <td>Admin@stock.net</td>
+                            <td>Administrador</td>
+                            <td>
+                                <button class="btn-estado-activo">Activo</button>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
         </section>
     </main>
 </body>

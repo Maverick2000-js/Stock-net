@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log Actividad</title>
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+    <header class="header-azul">
+        <div class="content-header">
+            <h1>STOCK.net</h1>
+            <small>Sistema Integral de Gestión de Inventario</small>
+        </div>
+        
+        <div class="admin-button">
+            <span> Administrador - Acceso directo</span>
+        </div>
+    </header>
+
+    <main>
+        <section>
+            <h2>GESTIÓN DE USUARIOS Y ROLES</h2>
+            <div class="nav-buttons">
+                <button type="button" class="btn btn-primary-log">Lista de Usuarios</button>
+                <button type="button" class="btn btn-secondary-log">Log de Actividad</button>
+            </div>
+        </section>
+
+        <section>
+            <form class="search-container-log" onsubmit="RealizarBusqueda(event)">
+                <input type="text" id="miBusqueda" placeholder="Buscar usuario" class="search-input-log" autocomplete="off">
+            </form>
+        </section>
+
+        <div class="table-container">
+            <table>
+                
+                <thead class="border-thead">
+                    <tr>
+                        <th>USUARIO</th>
+                        <th>FECHA Y HORA</th> 
+                        <th>MÓDULO</th>
+                        <th>EVENTO / DESCRIPCIÓN</th>
+                        <th>ESTADO</th>
+                    </tr>
+                </thead>
+    
+                <tbody>
+                    <tr class="row-color">
+                        <td>Empleado 1</td>
+                        <td>10:45 AM - Hoy</td>
+                        <td>Punto de Venta</td>
+                        <td>Venta a Crédito - Cliente id 1</td>
+                        <td>EXITOSO</td>
+                    </tr>
+                    <tr class="row-color">
+                        <td>Administrador</td>
+                        <td>10:45 AM - Hoy</td>
+                        <td>Proveedores</td>
+                        <td>Nuevo proveedor registrado: Scribe papelería</td>
+                        <td>EXITOSO</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </main>
+</body>
+</html>
