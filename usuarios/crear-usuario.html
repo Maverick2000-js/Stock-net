@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crear usuario</title>
+    <link rel="stylesheet" href="../css/styles.css" >
+</head>
+<body>
+    <div class="modal-overlay">
+        <div class="modal-container">
+            <header class="modal-header">
+                <h2>CREAR NUEVO USUARIO</h2>
+                <button type="button" class="modal-close" aria-label="Cerrar">&times;</button>
+            </header>
+
+            <form id="crear-usuario-form" name="crear-usuario" action="/api/usuarios" method="post" enctype="multipart/form-data" class="usuario-form">
+                
+                <div class="form-section">
+                    <h3 class="section-title">DATOS BÁSICOS</h3>
+
+                    <div class="form-group">
+                        <label for="name">Nombre del Usuario:</label>
+                        <input type="text" id="name" name="name" class="form-input" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="user-id">Usuario ID:</label>
+                        <input type="text" id="user-id" name="user-id" class="form-input" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="rol">Rol:</label>
+                        <select id="rol" name="rol" class="form-select" required>
+                            <option value="" disabled selected>Selecciona un rol</option>
+                            <option value="admin">Administrador</option>
+                            <option value="editor">Editor</option>
+                            <option value="usuario">Usuario</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="password">Password:</label>
+                        <input type="password" id="password" name="password" class="form-input" required minlength="8">
+                    </div>
+                </div>
+
+                <div class="form-section">
+                    <h3 class="section-title">Perfil de Usuario:</h3>
+                    
+                    <div class="profile-upload-container">
+                        <div class="profile-preview-box">
+                            <!-- Aquí se mostrará la vista previa del icono/imagen -->
+                            <span class="preview-icon">📁</span>
+                        </div>
+                        <div class="file-input-wrapper">
+                            <label for="icono" class="file-custom-label">Seleccionar Icono</label>
+                            <input type="file" id="icono" name="icono" class="form-file" accept="image/png, image/jpeg, image/webp">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-actions">
+                    <button type="submit" class="btn btn-primary">Guardar Cambios</button>
+                    <button type="button" class="btn btn-secondary">Cancelar</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

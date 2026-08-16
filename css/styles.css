@@ -351,3 +351,185 @@
                 border-color: #f1a832;
             }
             
+            /* Estilos para el módulo de usuarios */
+
+            * {
+                box-sizing: border-box;
+                margin: 0;
+                padding: 0;
+                font-family: Arial, sans-serif;
+            }
+
+            /* Fondo oscuro translúcido para simular el modal flotante */
+            .modal-overlay {
+                position: fixed;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                background-color: rgba(0, 0, 0, 0.4);
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+
+            /* Contenedor principal del modal con bordes turquesa */
+            .modal-container {
+                background-color: #fcf6eb;
+                width: 100%;
+                max-width: 550px;
+                border-radius: 10px;
+                border: 2px solid #48c7b8;
+                box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+                overflow: hidden;
+            }
+
+            /* Cabecera del modal en tono azul oscuro */
+            .modal-header {
+                background-color: #536c88;
+                color: #ffffff;
+                padding: 15px 20px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+            }
+
+            .modal-header h2 {
+                font-size: 16px;
+                font-weight: bold;
+                letter-spacing: 0.5px;
+            }
+
+            .modal-close {
+                background: none;
+                border: none;
+                color: #ffffff;
+                font-size: 20px;
+                cursor: pointer;
+            }
+
+            /* Estructura del formulario */
+            .usuario-form {
+                padding: 25px 30px;
+            }
+
+            .form-section {
+                margin-bottom: 20px;
+            }
+
+            .section-title {
+                font-size: 14px;
+                font-weight: bold;
+                color: #222;
+                margin-bottom: 12px;
+            }
+
+            /* Campos de entrada y etiquetas */
+            .form-group {
+                margin-bottom: 15px;
+            }
+
+            .form-group label {
+                display: block;
+                font-size: 13px;
+                color: #333;
+                margin-bottom: 5px;
+            }
+
+            .form-input, 
+            .form-select {
+                width: 100%;
+                padding: 10px 12px;
+                border: 1px solid #b0b0b0;
+                border-radius: 6px;
+                font-size: 14px;
+                background-color: #fff;
+                outline: none;
+                transition: border-color 0.2s;
+            }
+
+            .form-input:focus, 
+            .form-select:focus {
+                border-color: #f0a500;
+            }
+
+            /* Sección de perfil de usuario y carga de archivos */
+            .profile-upload-container {
+                display: flex;
+                align-items: center;
+                gap: 15px;
+            }
+
+            .profile-preview-box {
+                width: 80px;
+                height: 65px;
+                background-color: #f0a500;
+                border-radius: 6px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            }
+
+            .preview-icon {
+                font-size: 30px;
+            }
+
+            .file-input-wrapper {
+                display: flex;
+                flex-direction: column;
+                gap: 5px;
+            }
+
+            .file-custom-label {
+                font-size: 12px;
+                font-weight: bold;
+                color: #333;
+            }
+
+            .form-file {
+                font-size: 12px;
+                color: #555;
+            }
+
+            /* Botones de acción inferiores */
+            .form-actions {
+                display: flex;
+                justify-content: flex-end;
+                gap: 10px;
+                margin-top: 25px;
+                border-top: 1px solid #eee;
+                padding-top: 15px;
+            }
+
+            .btn {
+                padding: 8px 20px;
+                border-radius: 6px;
+                font-size: 14px;
+                font-weight: bold;
+                cursor: pointer;
+                border: 1px solid transparent;
+            }
+
+            .btn-primary {
+                background-color: #f0a500;
+                color: #000;
+                border-color: #d89300;
+            }
+
+            .btn-primary:hover {
+                background-color: #e09800;
+            }
+
+            .btn-secondary {
+                background-color: #d1d8df;
+                color: #333;
+                border-color: #b8c2cc;
+            }
+
+            .btn-secondary:hover {
+                background-color: #bec7d0;
+            }
+            .modal-header {
+                background-color: #4a6b8c;
+            }
